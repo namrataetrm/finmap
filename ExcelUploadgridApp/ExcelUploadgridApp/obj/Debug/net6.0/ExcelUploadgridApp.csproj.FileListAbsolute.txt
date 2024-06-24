@@ -156,3 +156,6 @@ C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgri
 C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\NCalc.dll
+C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\DocumentFormat.OpenXml.Framework.dll
+C:\AspNetCore\All Projects\Excel_Import_export\ExcelUploadgridApp\ExcelUploadgridApp\bin\Debug\net6.0\System.IO.Packaging.dll
