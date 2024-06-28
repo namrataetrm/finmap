@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AspNetCore\\All Projects\\Excel_Import_export\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj": {}
+    "C:\\abc\\test\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj": {}
   },
   "projects": {
-    "C:\\AspNetCore\\All Projects\\Excel_Import_export\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj": {
+    "C:\\abc\\test\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AspNetCore\\All Projects\\Excel_Import_export\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj",
+        "projectUniqueName": "C:\\abc\\test\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj",
         "projectName": "ExcelUploadgridApp",
-        "projectPath": "C:\\AspNetCore\\All Projects\\Excel_Import_export\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj",
+        "projectPath": "C:\\abc\\test\\ExcelUploadgridApp\\ExcelUploadgridApp\\ExcelUploadgridApp.csproj",
         "packagesPath": "C:\\Users\\SiddheshRameshAhire\\.nuget\\packages\\",
-        "outputPath": "C:\\AspNetCore\\All Projects\\Excel_Import_export\\ExcelUploadgridApp\\ExcelUploadgridApp\\obj\\",
+        "outputPath": "C:\\abc\\test\\ExcelUploadgridApp\\ExcelUploadgridApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SiddheshRameshAhire\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[3.0.2, )"
+            },
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "EPPlus": {
               "target": "Package",
@@ -56,9 +64,17 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",

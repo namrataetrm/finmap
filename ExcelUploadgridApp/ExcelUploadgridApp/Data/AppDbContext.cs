@@ -9,6 +9,8 @@ namespace ExcelUploadgridApp.Data
     public class AppDbContext : DbContext
     {
         private readonly string _currentUser;
+        private readonly DbContextOptions<AppDbContext> _options;
+
 
         public DbSet<ParentDetail> ParentDetails { get; set; }
         public DbSet<ColumnDetail> ColumnDetails { get; set; }
@@ -22,7 +24,7 @@ namespace ExcelUploadgridApp.Data
         //}
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            
+            _options = options;
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -61,6 +63,8 @@ namespace ExcelUploadgridApp.Data
                       .HasForeignKey(v => v.ColumnId);
                 /*  .OnDelete(DeleteBehavior.Cascade); */// Set cascade delete behavior if needed
             });
+
+
 
         }
 

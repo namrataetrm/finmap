@@ -1,0 +1,351 @@
+/* General container styling */
+body{
+    overflow: hidden;
+  }
+  .container {
+    height: 100% ;
+    
+  }
+  
+  /* Toolbar styling */
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .toolbar-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toolbar-item-right {
+    margin-left: auto;
+  }
+  
+  /* Select box styling */
+  .toolbar select {
+    max-width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* File input styling */
+  .toolbar input[type="file"] {
+    display: none;
+  }
+  
+  /* Label styling for file input */
+  .toolbar label {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #00aaff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .toolbar label.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Hover effect for label */
+  .toolbar label:hover:not(.disabled) {
+    background-color: #0088cc;
+    transform: scale(1.05);
+  }
+  
+  /* Button styling */
+  .toolbar button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Hover effect for button */
+  .toolbar button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Loading spinner styling */
+  .toolbar .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Alert styling */
+  .alert-danger {
+    margin-top: 15px;
+  }
+  
+  /* Popup container styling */
+  .popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup content styling */
+  .popup-content {
+    text-align: center;
+  }
+  
+  /* Popup title styling */
+  .popup-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Popup message styling */
+  .popup-message {
+    margin-bottom: 20px;
+  }
+  
+  /* Popup buttons container styling */
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Popup button styling */
+  .popup-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Confirm button styling */
+  .popup-button.confirm {
+    background-color: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  /* Cancel button styling */
+  .popup-button.cancel {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  /* AG Grid styling */
+  .ag-theme-alpine {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: auto;
+    height: 500px;
+    margin-top: 20px;
+  }
+  
+  /* Loading spinner inside AG Grid */
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Animation for button */
+  @keyframes buttonLoading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Add loading animation to spinner */
+  .btn-primary .fa-spin {
+    animation: buttonLoading 1s infinite linear;
+  }
+  /* General container styling */
+  .container {
+    margin: 20px;
+  }
+  
+  /* Toolbar styling */
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .toolbar-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toolbar-item-right {
+    margin-left: auto;
+  }
+  
+  /* Select box styling */
+  .toolbar select {
+    max-width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  /* File input styling */
+  .toolbar input[type="file"] {
+    display: none;
+  }
+  
+  /* Label styling for file input */
+  .toolbar label {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #00aaff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .toolbar label.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Hover effect for label */
+  .toolbar label:hover:not(.disabled) {
+    background-color: #0088cc;
+    transform: scale(1.05);
+  }
+  
+  /* Button styling */
+  .toolbar button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Hover effect for button */
+  .toolbar button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Loading spinner styling */
+  .toolbar .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Alert styling */
+  .alert-danger {
+    margin-top: 15px;
+  }
+  
+  /* Popup container styling */
+  .popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Popup content styling */
+  .popup-content {
+    text-align: center;
+  }
+  
+  /* Popup title styling */
+  .popup-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Popup message styling */
+  .popup-message {
+    margin-bottom: 20px;
+  }
+  
+  /* Popup buttons container styling */
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Popup button styling */
+  .popup-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Confirm button styling */
+  .popup-button.confirm {
+    background-color: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  /* Cancel button styling */
+  .popup-button.cancel {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
+  /* AG Grid styling */
+  .ag-theme-alpine {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: auto;
+    height: 500px;
+    margin-top: 20px;
+  }
+  
+  /* Loading spinner inside AG Grid */
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Animation for button */
+  @keyframes buttonLoading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Add loading animation to spinner */
+  .btn-primary .fa-spin {
+    animation: buttonLoading 1s infinite linear;
+  }
+  

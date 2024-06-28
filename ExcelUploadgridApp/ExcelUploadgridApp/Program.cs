@@ -46,6 +46,7 @@
 using ExcelUploadgridApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using OfficeOpenXml;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,7 +74,7 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-
+//ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
