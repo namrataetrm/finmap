@@ -2930,11 +2930,11 @@ namespace ExcelUploadgridApp.Controllers
                         rowValidation[columnName] = "Age must be greater than 30";
                     }
                     break;
-                case "value != null && value.Trim() != ''":
+               /* case "value != null && value.Trim() != ''":
                     if (string.IsNullOrEmpty(cellValue?.Trim()))
                     {
                         rowValidation[columnName] = "Value must not be empty";
-                    }
+                    }*/
                     break;
                 // Add more validation checks as needed
                 default:
