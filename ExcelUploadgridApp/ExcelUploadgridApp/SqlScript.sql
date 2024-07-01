@@ -1,8 +1,4 @@
-﻿namespace ExcelUploadgridApp
-{
-    public class SqlScript
-    {  /*
-        
+﻿  
 -- Drop tables if they exist
 IF OBJECT_ID('valuedetails', 'U') IS NOT NULL
     DROP TABLE valuedetails;
@@ -87,8 +83,3 @@ INSERT INTO columndetail (parent_id, column_name, data_type, is_required, is_nul
 (2, 'Address', 'NVARCHAR(255)', 1, 1, 9, 'Address', NULL, 1, NULL, NULL, NULL, 'Address can be empty'),
 (2, 'City', 'NVARCHAR(100)', 1, 1, 10, 'City', NULL, 1, NULL, NULL, NULL, 'City can be empty');
 
-        
-        
-        */
-    }
-}
